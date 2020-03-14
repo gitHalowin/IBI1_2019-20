@@ -1,6 +1,6 @@
 #draw a random integer x from range(1,8192)
-#n=13
-#Is x qual to 0 or n>=1?
+#n count down from 13
+#Is x equal to 0?
    #if yes: break
    #else: Is x bigger or equal to 2^n?
       #if not: n=n-1 
