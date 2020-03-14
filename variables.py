@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Sat Mar 14 15:01:41 2020
+Created on Sat Mar 14 15:06:19 2020
 
 @author: halowin
 """
@@ -14,8 +14,8 @@ d=c/11
 e=d/13
 e>a
 
-#X=True;
-#Y=False;
+X=True;
+Y=False;
 Z=(X and not Y) or (Y and not X);
 if Z is True:
     print(1);
@@ -24,4 +24,3 @@ else:
 W= X!=Y
 if W==Z is True:
     print(1)
-    
