@@ -1,0 +1,1 @@
+At first, it was hard for me to find where to commit and I failed to realize every commit needed a summary. Things became easier after understanding these two facts.
