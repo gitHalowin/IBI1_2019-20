@@ -1,0 +1,3 @@
+At first, it was a little difficult for me in terms of finding out how random.choice() functions in randomly picking individuals from a population that would change after every loop. 
+The second task was done smoothly, but I cannot have both the legend or the complete curves. While adjusting the line of legend, I can only achieve one of them. Moreover, somehow fractions were identified as 'float' which cannot be in a loop, so I changed them into integers.
+It was hard to put all the considerations together in the third task, so I turn to snippet  and the problems were solved.
