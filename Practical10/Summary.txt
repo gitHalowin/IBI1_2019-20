@@ -1,0 +1,1 @@
+The sequence of mouse is quite similar to that of human and the similarity reaches 90% if put in the BLOSUM62 matrix. Therefore, the SOD2 protein in human and mouse share a lot of commons.
