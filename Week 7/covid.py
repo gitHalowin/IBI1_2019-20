@@ -65,20 +65,19 @@ plt.close()
 date = covid_data.loc[:,'date']
 row2 = []
 for i in range(7995):
-    if date.iloc[i] == '2020-03-31':
+    if date.iloc[i] == '2020-03-14':
         row2.append(i)
     else:
         row2 = row2
-
-end_total_cases = covid_data.loc[row2,'total_cases']
-row3 = []
-for i in row2:
-    if end_total_cases.iloc[i] <= 10:
-        print(i)
-    else:
-        print ('False')
-low_total_cases = covid_data.loc[row3,'location']
-print (low_total_cases)
+#remove the data of the world
+del(row2[-1])
+total_cases = covid_data.loc[row2,'total_cases']
+print (total_cases)
+plt.title('total cases on 14 March')
+plt.ylabel('number')
+plt.ylim((0,20000))
+plt.boxplot(total_cases)
+plt.show()
 
 
 
