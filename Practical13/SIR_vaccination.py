@@ -12,6 +12,7 @@ from matplotlib import cm
 from collections import Counter
 
 #set 1000 times of loop
+plt.figure(figsize=(6,4),dpi = 150)
 plt.title('SIR model with different vaccination rates')
 plt.xlabel('time')
 plt.ylabel('number of people')
